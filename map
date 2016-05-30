@@ -23,7 +23,11 @@
 	#zoom_container .landmarks .lable div {
 		width: 100px;
 		padding: 4px;		
-	}		
+	}	
+	#zoom_container .landmarks .mark .text{
+		background-color:000;
+		padding:2px 6px;
+	}	
 	
 	.mark a{
 	    color:black;
