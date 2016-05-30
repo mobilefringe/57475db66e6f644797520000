@@ -89,7 +89,7 @@
 </script>
 <!-- End Jobs Template-->
 
-<script src="http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/jquery.smoothZoom.min.js"></script>
+<script src="http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/jquery.smoothZoom.min.js"></script>s
 <script>
     $(document).ready(function(e){
         init(e);
@@ -148,6 +148,19 @@
         }
         show_content();
         var stores = getStoresList();
-        
+        $("#png_map").attr("src", getPNGMapURL())
+		$('#png_map').smoothZoom({
+		    height: 496,
+		    width: 619,
+		    initial_ZOOM: 50,
+			initial_POSITION: '500 1000',
+			zoom_MIN: 50,
+			zoom_MAX: 100,
+			zoom_BUTTONS_SHOW : 'YES',
+			pan_BUTTONS_SHOW : 'NO',
+			pan_LIMIT_BOUNDARY : 'NO',
+			button_ALIGN: "top left",
+			container: 'zoom_container'
+		});
     }
 </script>
