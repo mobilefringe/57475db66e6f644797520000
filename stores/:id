@@ -168,7 +168,7 @@
 			button_ALIGN: "top left",
 			container: 'zoom_container'
 		});
-		show_png_pin_without_link("#store_name", "#png_map")
+		show_png_pin_without_link(, "#png_map")
 		
     }
 </script>
