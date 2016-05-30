@@ -15,7 +15,7 @@
         </div>
         <div class="details_col_9">
             <div id="zoom_container">
-                <img id="png_map" class="png_map" alt="center map" src="" width="2500px" height="2500px" />
+                <img id="png_map" class="png_map" alt="center map" src="" />
                 <div class="landmarks" data-show-at-zoom="100" data-allow-drag="true">
         	    </div>    
             </div>
@@ -38,8 +38,8 @@
         
         $("#png_map").attr("src", getPNGMapURL())
 		$('#png_map').smoothZoom({
-		    height: 500,
-		    width: 500,
+		    height: 496,
+		    width: 619,
 		    initial_ZOOM: 50,
 			initial_POSITION: '500 1000',
 			zoom_MIN: 50,
