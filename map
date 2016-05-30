@@ -44,6 +44,26 @@
         renderStoreList('#stores_container','#stores_template', stores, "stores", "A", "Z");
         show_content();
         $('#top_nav_stores').addClass('active_yellow')
+        var propertyDetails = getPropertyDetails();
+                $(".panzoom-elements").hide();
+                $("#zControls").hide();
+                $("#png_map").attr("src", getPNGMapURL())
+                // $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
+                jQuery(function($){
+            		$('#png_map').smoothZoom({
+            		    height: 940,
+            		    width:2240,
+            		    initial_ZOOM: 50,
+            			initial_POSITION: '5000 1000',
+            			zoom_MIN: 50,
+            			zoom_MAX: 100,
+            			zoom_BUTTONS_SHOW : 'YES',
+            			pan_BUTTONS_SHOW : 'NO',
+            			pan_LIMIT_BOUNDARY : 'NO',
+            			button_ALIGN: "top left",
+            			container: 'zoom_container'
+            		});
+                });
         
     }
 </script>
