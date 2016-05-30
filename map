@@ -1,3 +1,51 @@
+<style>
+
+.smooth_zoom_preloader {
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/preloader.gif);
+}	
+.smooth_zoom_icons {
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/icons.png);
+}
+
+#zoom_container .landmarks{
+		position:absolute;
+		z-index:10;	
+		top:0px;
+		left:0px;
+		font-family: Helvetica, Arial, Verdana;
+		font-size:12px;
+		color: #ffffff;
+	}	
+	#zoom_container .landmarks .item {
+		position:absolute;		
+		text-align:center;		
+		/*display: none;	*/
+	}	
+	#zoom_container .landmarks .lable div {
+		width: 100px;
+		padding: 4px;		
+	}	
+	#zoom_container .landmarks .mark .text{
+		background-color:transparent;
+		padding:2px 6px;
+	}	
+	
+	.mark a{
+	    color:black;
+	    display:none;
+	}
+	
+	
+@media (max-width: 767px) {
+
+}
+
+
+
+
+
+</style>
+
 <div class="header_banner stores_banner">
     <div class="main_container">
         <h4 class="header_banner_heading">Center Map</h4>
