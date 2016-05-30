@@ -63,7 +63,9 @@
                 <img id="png_map" class="png_map" alt="center map" src="" width="100%" height="2500px"/>
             
                 <div class="landmarks" data-show-at-zoom="100" data-allow-drag="true">
-                    
+                    <div class="marker" id="store_{{store.id}}" data-coords="{{store.x_coordinate | minus:19}}, {{store.y_coordinate | minus:58}}" style="display:none">
+        				{{ store.name }}
+        			</div>	
         	    </div>    
             </div>
         </div>
