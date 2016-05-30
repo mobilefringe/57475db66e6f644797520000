@@ -57,7 +57,7 @@
 			container: 'zoom_container'
 		});
 		
-		show_map_pin()
+		show_map_pin(".map_pin_a")
         
     }
 </script>
