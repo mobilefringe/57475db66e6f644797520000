@@ -125,7 +125,7 @@
     			'<div class="item mark" data-show-at-zoom="0" data-position="'+x_coord+','+y_coord+'">\
     				<div>\
     					<div class="text">\
-    					<strong>'+name+'<br>'+floor+'</strong>\
+    					<strong>'+ name+ '</strong>\
     				</div>\
     				<img src="http://kodekloud.s3.amazonaws.com/sites/54cfab316e6f6433ad020000/530d3a9b7bc13ce4a511089c23463f99/10dundas_pin.png" width="40px" height="59px" alt="marker" />\
     				</div>\
