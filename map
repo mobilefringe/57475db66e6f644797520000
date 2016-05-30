@@ -14,7 +14,19 @@
             </div>
         </div>
         <div class="details_col_9">
-            <div class="" id="mapsvg"></div>
+            <div id="zControls" class="pull-right">
+                <button onclick="pngZoomIn()" class="zoom-in"><span class="glyphicon glyphicon-plus"></span></button>
+                <button onclick="pngZoomOut()" class="zoom-out"><span class="glyphicon glyphicon-minus"></span></button>
+            </div>
+            <div id="map" class="panzoom-elements" style=""><img src=""></div>
+            
+            <div id="zoom_container">
+                <img id="png_map" class="png_map" alt="center map" src="" width="2240px" height="943px"/>
+            
+                <div class="landmarks" data-show-at-zoom="100" data-allow-drag="true">
+                    
+        	    </div>    
+            </div>
         </div>
     </div>
 </div>
