@@ -1,13 +1,13 @@
 <style>
 
-.smooth_zoom_preloader {
-	background-image: url(http://assets.codecloudapp.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/preloader.gif);
-}	
-.smooth_zoom_icons {
-	background-image: url(http://assets.codecloudapp.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/icons.png);
-}
-
-#zoom_container .landmarks{
+    .smooth_zoom_preloader {
+    	background-image: url(http://assets.codecloudapp.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/preloader.gif);
+    }	
+    .smooth_zoom_icons {
+    	background-image: url(http://assets.codecloudapp.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/icons.png);
+    }
+    
+    #zoom_container .landmarks{
 		position:absolute;
 		z-index:10;	
 		top:0px;
