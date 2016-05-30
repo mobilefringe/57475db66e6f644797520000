@@ -48,13 +48,12 @@
         $(".panzoom-elements").hide();
         $("#zControls").hide();
         $("#png_map").attr("src", getPNGMapURL())
-        // $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
         jQuery(function($){
     		$('#png_map').smoothZoom({
     		    height: 940,
     		    width:2240,
     		    initial_ZOOM: 50,
-    			initial_POSITION: '5000 1000',
+    			initial_POSITION: '1000 1000',
     			zoom_MIN: 50,
     			zoom_MAX: 100,
     			zoom_BUTTONS_SHOW : 'YES',
