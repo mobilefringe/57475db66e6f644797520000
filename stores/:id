@@ -168,7 +168,5 @@
 			button_ALIGN: "top left",
 			container: 'zoom_container'
 		});
-		
-		
     }
 </script>
