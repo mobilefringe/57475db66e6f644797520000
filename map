@@ -1,5 +1,4 @@
 <style>
-
     .smooth_zoom_preloader {
     	background-image: url(http://assets.codecloudapp.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/preloader.gif);
     }	
