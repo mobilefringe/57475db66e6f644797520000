@@ -93,7 +93,7 @@
     		    width: 619,
     		    initial_ZOOM: 0,
     			initial_POSITION: '500 1000',
-    			zoom_MIN: 0,
+    			zoom_MIN: 20,
     			zoom_MAX: 100,
     			zoom_BUTTONS_SHOW : 'YES',
     			pan_BUTTONS_SHOW : 'NO',
