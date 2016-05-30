@@ -106,8 +106,8 @@
             coords = $(this).attr('data-value').split(",");
             console.log(coords)
             var zoomData = $('#png_map').smoothZoom('getZoomData');
-            x_coord = parseInt(coords[0]) + 500
-            y_coord = parseInt(coords[1]) + 300
+            x_coord = parseInt(coords[0])
+            y_coord = parseInt(coords[1]) 
             
             $(".mark").hide();
             $(".mark a").hide();
