@@ -25,7 +25,7 @@
 		padding: 4px;		
 	}	
 	#zoom_container .landmarks .mark .text{
-		background-color:#000;
+		background-color:transparent;
 		padding:2px 6px;
 	}	
 	
