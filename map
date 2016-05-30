@@ -20,7 +20,7 @@
 </div>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
-<script src="http://web.codecloudapp.com/sites/5422419e4a616d74d9030000/e1fb5e17ab727d248230fbcb51da868f/jquery.panzoom.min.js"></script>
+<script src="http://assets.codecloudapp.com/sites/5422419e4a616d74d9030000/e1fb5e17ab727d248230fbcb51da868f/jquery.panzoom.min.js"></script>
 <script>
     $(document).ready(function(e){
         init(e);
