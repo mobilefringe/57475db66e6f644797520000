@@ -19,9 +19,8 @@
     </div>
 </div>
 
-<script type="text/javascript" src="http://cdn.mallmaverick.com/javascripts/mapsvg/raphael.js"></script>
-<script type="text/javascript" src="http://cdn.mallmaverick.com/javascripts/mapsvg/jquery.mousewheel.js"></script>
-<script type="text/javascript" src="http://cdn.mallmaverick.com/system/site_images/photos/000/005/107/original/mallmaverick_svgmap.js?1412885524"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
+<script src="http://kodekloud.s3.amazonaws.com/sites/5422419e4a616d74d9030000/e1fb5e17ab727d248230fbcb51da868f/jquery.panzoom.min.js"></script>
 <script>
     $(document).ready(function(e){
         init(e);
