@@ -34,6 +34,15 @@
 	    display:none;
 	}
 	
+	#zoom_container .landmarks .mark .text {
+        background-color: #6e6e6e;
+        padding: 10px;
+        width: 150px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding-top: 12px;
+    }
+	
 </style>
 
 <div class="header_banner stores_banner">
