@@ -92,7 +92,7 @@
     		    height: 496,
     		    width: 619,
     		    initial_ZOOM: 0,
-    			initial_POSITION: '10 1000',
+    			initial_POSITION: '1000 1000',
     			zoom_MIN: 50,
     			zoom_MAX: 100,
     			zoom_BUTTONS_SHOW : 'YES',
