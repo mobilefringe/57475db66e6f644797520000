@@ -91,7 +91,7 @@
     		$('#png_map').smoothZoom({
     		    height: 496,
     		    width: 619,
-    		    initial_ZOOM: 0,
+    		    initial_ZOOM: 20,
     			initial_POSITION: '500 1000',
     			zoom_MIN: 20,
     			zoom_MAX: 100,
