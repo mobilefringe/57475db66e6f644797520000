@@ -54,7 +54,16 @@ $animation_color: #F3CDB4;
     background:transparent;
 }
 
+.rossmoor-services{
+    background-image: url(http://assets.codecloudapp.com/sites/57475db66e6f644797520000/image/jpeg/undefined/rsb_1920x150_banner_events.jpg);
+}
 
+.rossmoor-contact-us{
+    background-image: url(http://assets.codecloudapp.com/sites/57475db66e6f644797520000/image/jpeg/undefined/rsb_1920x150_banner_events.jpg;
+}
+.rossmoor-privacy-policy{
+    background-image: url(http://assets.codecloudapp.com/sites/57475db66e6f644797520000/image/jpeg/undefined/rsb_1920x150_banner_events.jpg);
+}
 
 
 
