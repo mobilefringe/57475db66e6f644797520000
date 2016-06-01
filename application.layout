@@ -80,18 +80,18 @@
             </div>
             <div class="nav_container hidden_phone">
                 <div class="social_links">
-                    <a href="https://www.facebook.com/pages/The-shops-at-RossmoorSeal-Beach/206460376035234?fref=ts" target="_blank">
-                        <span id="social_facebook"></span>
-                    </a>
+                    <!--<a href="https://www.facebook.com/pages/The-shops-at-RossmoorSeal-Beach/206460376035234?fref=ts" target="_blank">-->
+                    <!--    <span id="social_facebook"></span>-->
+                    <!--</a>-->
                     <!--<a href="#" target="_blank">-->
                     <!--    <span id="social_twitter"></span>-->
                     <!--</a>-->
                     <!--<a href="#" target="_blank">-->
                     <!--    <span id="social_pinterest"></span>-->
                     <!--</a>-->
-                    <a href="https://www.instagram.com/shopsatrossmoor/" target="_blank">
-                        <span id="social_insta"></span>
-                    </a>
+                    <!--<a href="https://www.instagram.com/shopsatrossmoor/" target="_blank">-->
+                    <!--    <span id="social_insta"></span>-->
+                    <!--</a>-->
                     <!--<a href="#" target="_blank">-->
                     <!--    <span id="social_yt"></span>-->
                     <!--</a>-->
@@ -156,11 +156,11 @@
                     </form>
                 </div>
             </div>
-            <div class="footer_col hidden_phone">
-                <a class="pull-right view_more_btn" href="https://www.instagram.com/shopsatrossmoor/" target="_blank">view more ></a>
-                <h5 class="heading">INSTAGRAM</h5>
-                <div id="instafeed"></div>
-            </div>
+            <!--<div class="footer_col hidden_phone">-->
+            <!--    <a class="pull-right view_more_btn" href="https://www.instagram.com/shopsatrossmoor/" target="_blank">view more ></a>-->
+            <!--    <h5 class="heading">INSTAGRAM</h5>-->
+            <!--    <div id="instafeed"></div>-->
+            <!--</div>-->
         </div>
     </section>
     <section class="copyright_footer main_container">
