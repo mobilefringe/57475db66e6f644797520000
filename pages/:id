@@ -26,6 +26,15 @@
     function renderPage(){
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
+        if (slug == "rossmoor-privacy-policy"){
+           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/57475db66e6f644797520000/image/jpeg/undefined/rsb_440x1200_side_events.jpg")
+        }
+         if (slug == "rossmoor-contact-us"){
+           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/57475db66e6f644797520000/image/jpeg/undefined/rsb_440x1200_side_events.jpg")
+        }
+         if (slug == "rossmoor-services"){
+           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/57475db66e6f644797520000/image/jpeg/undefined/rsb_440x1200_side_events.jpg")
+        }
         prefix = get_prefix();
         $('#top_banner').addClass(slug)
         var pages_json = prefix+"/pages/" + slug + ".json"
