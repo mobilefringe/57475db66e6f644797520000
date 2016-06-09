@@ -27,7 +27,7 @@
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         if (slug == "shopsatrossmoor-privacy-policy"){
-           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/57475db66e6f644797520000/image/jpeg/undefined/rsb_440x1200_side_events.jpg")
+           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/57475db66e6f644797520000/image/jpeg/undefined/rsb_440x1200_side_privacy.jpg")
         }
          if (slug == "shopsatrossmoor-contact-us"){
            $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/57475db66e6f644797520000/image/jpeg/undefined/rsb_440x1200_side_contact.jpg")
@@ -35,9 +35,7 @@
          if (slug == "shopsatrossmoor-services"){
            $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/57475db66e6f644797520000/image/jpeg/undefined/rsb_440x1200_side_services.jpg")
         }
-         if (slug == "rossmoor-privacy-policy"){
-           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/57475db66e6f644797520000/image/jpeg/undefined/rsb_440x1200_side_privacy.jpg")
-        }
+         
         prefix = get_prefix();
         $('#top_banner').addClass(slug)
         var pages_json = prefix+"/pages/" + slug + ".json"
