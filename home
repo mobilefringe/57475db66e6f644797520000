@@ -5,9 +5,11 @@
     display:none !important;
 }
 </style>
-<div class="popup_home hidden_now">
-    <img id="popup_img" src="http://placehold.it/550x474" />
-    <i class="fa fa-remove close_popup"></i>
+<div class="popup_home hidden_now" id="popup_container">
+    <script id="popup_template" type="x-tmpl-mustache/text">
+        <img id="popup_img" src="{{photo_url}}" />
+        <i class="fa fa-remove close_popup"></i>
+    </script>
 </div>
 <div class="flexslider">
     <ul class="slides" id="home_banner">
