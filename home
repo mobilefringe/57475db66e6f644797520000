@@ -47,7 +47,7 @@
             animation: "fade",
         });
         if($.cookie("popup_viewed") != "true"){
-            // $.cookie("popup_viewed", "true", { expires: 1 });
+            $.cookie("popup_viewed", "true", { expires: 1 });
             $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
             $('.popup_home').show()
         }
