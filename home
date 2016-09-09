@@ -46,6 +46,7 @@
         $('.flexslider').flexslider({
             animation: "fade",
         });
+        show_content();
         if($.cookie("popup_viewed") != "true"){
             $.cookie("popup_viewed", "true");
             $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
@@ -55,6 +56,5 @@
             $(".modal-backdrop").remove();
 	        $(".popup_home").remove();
         })
-        show_content();
     }
 </script>
