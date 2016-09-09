@@ -73,7 +73,6 @@
            collection.css = "style=cursor:default;";
            collection.no_link = "return false";
         }
-        console.log(collection)
         collection.image_url_abs = "http://cdn.mallmaverick.com" + collection.photo_url
         var rendered = Mustache.render(template_html,collection);
         item_rendered.push(rendered);
