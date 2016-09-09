@@ -53,7 +53,7 @@
             animation: "fade",
         });
         show_content();
-        if($.cookie("popup_viewed") != "true"){
+        if(popup != undefined && $.cookie("popup_viewed") != "true"){
             $.cookie("popup_viewed", "true");
             $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
             $('.popup_home').show()
