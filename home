@@ -72,7 +72,7 @@
         $.each( collection , function( key, val ) {
             if(val.url == "" || val.url === null){
                val.css = "style=cursor:default;";
-               val.noLink = "return false";
+               val.no_link = "return false";
             }
             var repo_rendered = Mustache.render(template_html,val);
             item_rendered.push(repo_rendered);
