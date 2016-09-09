@@ -74,8 +74,8 @@
                val.css = "style=cursor:default;";
                val.no_link = "return false";
             }
-            var repo_rendered = Mustache.render(template_html,val);
-            item_rendered.push(repo_rendered);
+            var rendered = Mustache.render(template_html,val);
+            item_rendered.push(rendered);
         });
         $(container).html(item_rendered.join(''));
     }
