@@ -69,14 +69,12 @@
         var item_rendered = [];
         var template_html = $(template).html();
         Mustache.parse(template_html); 
-        $.each( collection , function( key, val ) {
-            if(val.url == "" || val.url === null){
-               val.css = "style=cursor:default;";
-               val.no_link = "return false";
-            }
-            var rendered = Mustache.render(template_html,val);
-            item_rendered.push(rendered);
-        });
+        if(val.url == "" || val.url === null){
+           val.css = "style=cursor:default;";
+           val.no_link = "return false";
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
         $(container).html(item_rendered.join(''));
     }
     
