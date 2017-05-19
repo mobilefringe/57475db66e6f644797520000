@@ -60,8 +60,7 @@
     
     <!-- Site data -->
     <script>
-        // setEndPoint('//rossmoor.mallmaverick.com/api/v3/shopsatrossmoor/all.json');
-        setEndPoint('//twinpines.mallmaverick.com/api/v3/twinpines/all.json');
+        setEndPoint('//rossmoor.mallmaverick.com/api/v3/shopsatrossmoor/all.json');
     </script>
 </head>
 
