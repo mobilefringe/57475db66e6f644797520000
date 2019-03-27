@@ -49,7 +49,7 @@
                                 <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" required data-validation="required"/> 
                                 I agree to receive newsletters from {{property_name}}. You can unsubscribe anytime.
                             </label>
-                            <p>Click here for the <a href="//codecloud.cdn.speedyrails.net/sites/5b5e7ced6e6f644fe8950000/application/pdf/1548792360000/CONTEST RULES AND REGULATIONS.pdf" target="_blank">Contest Rules & Regulations.</a> For more details about personal privacy, please read our <a href="/pages/shopsatrossmoor-privacy-policy" target="_blank">Privacy Policy.</a></p>
+                            <p>Click here for the <a href="//codecloud.cdn.speedyrails.net/sites/5b5e7ced6e6f644fe8950000/application/pdf/1553723212000/CONTEST RULES AND REgGULATIONS.pdf" target="_blank">Contest Rules & Regulations.</a> For more details about personal privacy, please read our <a href="/pages/shopsatrossmoor-privacy-policy" target="_blank">Privacy Policy.</a></p>
                             <br/><br/>
                             <button class="main_btn animated_btn contest_btn">Submit</button>
                             <br/><br/>
